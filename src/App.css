@@ -1,0 +1,140 @@
+/* fuente local */
+@font-face {
+  font-family: 'Hey Comic';
+  src: url('./fonts/Hey\ Comic.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* estilos generales */
+
+.mainBody {
+  background-image: url(./img/patitas.png);
+  background-repeat: repeat;
+  /* background-attachment: fit-content; */
+  background-position: 100%;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 1px 3px black;
+  height: 100vh;
+}
+
+p {
+  font-family: 'Hey Comic';
+  font-weight: lighter;
+  padding: 5px;
+}
+
+/* textos y fondo principal gatito */
+
+.App {
+  text-align: center;
+  padding-top: 50px;
+  background-image: url(./img/catorange.png);
+  background-position: center;
+  background-attachment: cover;
+  background-repeat: no-repeat;
+  background-size: 370px;
+  width: 400px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App h1 {
+  font-size: 25px;
+  padding-top: 150px;
+  font-family: 'Hey Comic';
+  font-style: italic;
+}
+
+.App h2 {
+  font-size: 18px;
+}
+
+/* links */
+
+.links , .links:visited, .links:link{
+  text-decoration: none;
+  color: white;
+}
+.links:hover {
+  color: grey;
+}
+
+/* botones */
+
+.btnBack {
+  width: 16px;
+  height: 16px;
+}
+#pass {
+  width: 80px;
+}
+
+#mail {
+  width: 130px;
+}
+.btnLogout {
+  font-family: 'Hey Comic';
+  font-weight: lighter;
+  margin-left: 85%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: transparent;
+  height: 20px;
+  width: 60px;
+  background-color: rgba(128, 128, 128, 0.447);
+  text-shadow: 2px 1px 2px black;
+  color: #ff9900;
+}
+
+#pass, #nm, #mail, #btn_register, #btn_login {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Hey Comic';
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5)
+}
+
+.google {
+  background-image: url(./img/google.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 15px;
+  border: transparent;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5)
+
+}
+
+/* estilos vista notas */
+.notesView {
+  background-image: url(./img/patitas-multi.png);
+  background-repeat: no-repeat;
+  background-attachment: fit-content;
+  background-size: cover;
+  background-position: cover;
+  height: 100vh;
+  font-family: 'Hey Comic';
+  font-weight: lighter;
+  text-shadow: 2px 1px 3px black;
+  color: white;
+  text-align: center;
+
+}
+.head {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+.head h1 {
+  background-color: rgba(128, 128, 128, 0.416);
+  width: 450px;
+  border-radius: 20px;
+  height: 45px;
+}
